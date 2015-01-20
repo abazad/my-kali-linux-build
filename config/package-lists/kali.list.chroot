@@ -38,11 +38,11 @@ guymager
 
 #if ARCHITECTURES i386 amd64
 # *** GNOME DESKTOP ***
-gnome-core
-gnome-brave-icon-theme
-gnome-shell-extensions
-nautilus-open-terminal
-gnome-orca
+#gnome-core
+#gnome-brave-icon-theme
+#gnome-shell-extensions
+#nautilus-open-terminal
+#gnome-orca
 #endif
 
 #if ARCHITECTURES armel armhf
@@ -53,8 +53,10 @@ network-manager
 #endif
 
 # *** KDE DESKTOP ***
-# kde-plasma-desktop
-# kdm
+ kali-defaults
+ kali-root-login
+ desktop-base
+ kde-plasma-desktop
 
 # *** LXDE DESKTOP ***
 # lxde
